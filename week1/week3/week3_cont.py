@@ -54,3 +54,27 @@
 #     total_sum +=user_number
 #     current_count += 1
 # print(f"The answer is {total_sum}.")
+
+# print("How many mountain Should I display?")
+# mount_to_display = int(input())
+# for _ in range (mount_to_display):
+#      print("      _ ")
+#      print("       /\ ")
+#      print("      /  \ ")
+#      print("     / -  \ ")
+#      print("    /    - \ ")
+#      print("   /  -     \ ")
+#      print("  ____________")
+# print("\nDone!")
+
+
+
+# #ask the user how many steps are rermaining
+# print("How far are we from the target?")
+# step_remaining = int(input())
+# for step in range(step_remaining, 0, -1):
+#     print(f"{step} steps remaining")
+# print("target achieved")
+
+
+
