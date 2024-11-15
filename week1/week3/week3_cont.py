@@ -19,9 +19,38 @@
 #     charged_bars += 1
 #     print("Charging:","\u2588" * charged_bars)
 
-#repeating words
-# ask the user for a phrase
-print("Please enter the phrase?")
-phrase = input()
-#Print "hi" for the number oof characters in the phrase
-print(" ".join(" Hi")* len(phrase))
+# #repeating words
+# # ask the user for a phrase
+# print("Please enter the phrase?")
+# phrase = input()
+# count = 0
+# #Print "hi" for the number oof characters in the phrase
+# print(" ".join(" Hi")*len(phrase))
+
+# #activity 5
+# #sum of first 100 numbers
+# print("Calculating the sum of first 100 numbers...")
+# #initialize variable
+# sum_number = 0
+# current_number = 1
+# #while loop to calculate
+# while current_number    <=100:
+#    sum_number += current_number
+#    current_number +=1
+# print(f"... Done the number is {sum_number}.")
+
+# #sum of numbers
+#
+#
+# print("how many numbers ?")
+# numbers_to_sum = int(input())
+# #initialize variable
+# total_sum = 0
+# current_count = 1
+# #while loop to retrieve and sum numbers
+# while current_count <= numbers_to_sum:
+#     print(f"Please enter number {current_count} of {numbers_to_sum}:")
+#     user_number = int(input())
+#     total_sum +=user_number
+#     current_count += 1
+# print(f"The answer is {total_sum}.")
