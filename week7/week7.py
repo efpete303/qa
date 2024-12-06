@@ -17,7 +17,10 @@ def run_task2():
     observations = observed_items()
     observation_set = set()
     for item in observations:
-        print(f"{item} observed {count} times.")
+        observation_set.add((item,observations.count(item)))
+
+    for item,count in observation_set:
+        print(f"{item} observed {count} times")
 if __name__=="__main__":
     run_task2()
 
